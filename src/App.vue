@@ -5,7 +5,6 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import Heart from './components/Heart.vue';
 
 export default {
@@ -14,14 +13,3 @@ export default {
   }
 };
 </script>
-
-<style>
-#app {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* min-height: 100vh; */
-  background-color: #f8f8f8;
-}
-</style>

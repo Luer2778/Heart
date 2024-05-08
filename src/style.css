@@ -58,11 +58,32 @@ button:focus-visible {
   padding: 2em;
 }
 
+.heart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.heart {
+  transition: fill 0.3s ease;
+}
+
+.heart:hover {
+  fill: #e53935;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  background-color: #f8f8f8;
 }
 
 @media (prefers-color-scheme: light) {

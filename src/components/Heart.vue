@@ -31,20 +31,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.heart-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.heart {
-  transition: fill 0.3s ease;
-}
-
-.heart:hover {
-  fill: #e53935;
-}
-</style>
