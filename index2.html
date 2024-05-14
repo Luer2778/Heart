@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <script type="module" src="Heart_files/client"></script>
+    <script type="module" src="index_files/client"></script>
 
     <meta charset="UTF-8">
     <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
@@ -67,11 +67,32 @@ button:focus-visible {
   padding: 2em;
 }
 
+.heart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.heart {
+  transition: fill 0.3s ease;
+}
+
+.heart:hover {
+  fill: #e53935;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 100vh; */
+  background-color: #f8f8f8;
 }
 
 @media (prefers-color-scheme: light) {
@@ -85,38 +106,6 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-</style><style type="text/css" data-vite-dev-id="F:/WorkSpace/Heart/Heart/src/components/Heart.vue?vue&amp;type=style&amp;index=0&amp;lang.css">
-#text_ {
-  color: #e53935;
-  font-size: 30px;
-  white-space: nowrap;
-  /* font-weight: bold; */
-  /* position: absolute; */
-  /* top: 50%;
-  left: 50%; */
-  /* transform: translate(-50%, -50%); */
-}
-.heart-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-.heart {
-  transition: fill 0.3s ease;
-}
-.heart:hover {
-  fill: #e53935;
-}
-</style><style type="text/css" data-vite-dev-id="F:/WorkSpace/Heart/Heart/src/App.vue?vue&amp;type=style&amp;index=0&amp;lang.css">
-#app {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* min-height: 100vh; */
-  /* background-color: ; */
 }
 </style><style data-id="immersive-translate-input-injected-css">.immersive-translate-input {
   position: absolute;
@@ -439,8 +428,8 @@ button:focus-visible {
   cursor: pointer;
 }</style></head>
   <body>
-    <div id="app" data-v-app=""><div id="app"><div class="heart-container" style="width: 200px; height: 200px;"><h id="text_">小鹿 </h><svg class="heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="red" width="100px" height="100px"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path></svg><h id="text_">琰琰 </h></div></div></div>
-    <script type="module" src="Heart_files/main.js"></script>
+    <div id="app" data-v-app=""><div id="app"><div class="heart-container" style="width: 200px; height: 200px;"><!-- <link type="image/svg+xml" href="./public/heart.svg" /> --><img src="index_files/heart.svg"></div></div></div>
+    <script type="module" src="index_files/main.js"></script>
   
 
 </body><div id="immersive-translate-popup" style="all: initial"></div></html>
